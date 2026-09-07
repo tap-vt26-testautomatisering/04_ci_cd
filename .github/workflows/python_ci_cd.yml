@@ -18,6 +18,8 @@ jobs:
       # 2. Installera Python
       - name: Inställningar för Python
         uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
 
       # 3. Installera beroenden (pytest m.m.)
       - name: Installera beroenden
